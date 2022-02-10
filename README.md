@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Disclaimer: 
+untuk no 2 dan 3 saya kerjakan dalam bentuk html dikarenakan saya 
+tidak sadar bahwa semua soal harus dikerjakan dalam bentuk react 
+dan saya baru tersadar saat menyelesaikan soal no 3. 
 
 ## Available Scripts
 

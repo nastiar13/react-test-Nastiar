@@ -462,3 +462,16 @@ button.btn-sub {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+
+.inp5 {
+  display: block;
+  width: 20rem;
+  margin-bottom: 1rem;
+  padding: 5px 10px;
+}
+
+.submit5 {
+  width: 20rem;
+  padding: 5px 10px;
+  background: teal;
+}
