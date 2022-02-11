@@ -53,7 +53,7 @@ btn.forEach((item, i) => {
   });
 });
 function deleteList(i) {
-  inputItem[0].remove();
+  inputItem[i].remove();
   renderInputList();
   getValue();
 }
@@ -64,9 +64,10 @@ add.addEventListener('click', () => {
   <div class="input-item">
     <input id="input" type="number" />
     <input type="checkbox" class="checkbox" />
-    <button onClick="deleteList()" class="delete">Delete</button>
+    <button onClick="deleteList(${i})" class="delete">Delete</button>
   <div />
   `;
+  i = i + 1;
   inputItem = document.querySelectorAll('.input-item');
   input = document.querySelectorAll('#input');
   checkbox = document.querySelectorAll('.checkbox');
